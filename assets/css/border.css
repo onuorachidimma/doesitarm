@@ -15,26 +15,31 @@
 }
 
 .links{
-    border-right: 6px solid #e5e7eb;
+    border-right: 1px solid #e5e7eb;
     /* padding-right: 50px; */
     box-sizing: border-box;
     width: 16%;
     padding: 20px;
+    
     /* padding-left: 0px;
     margin-left: 0px; */
     
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 600px) {
     .links {
       width: 100%; /* Set the width to 100% on smaller screens */
-      border-right: none; /* Remove the right border */
-      border-bottom: 1px solid white; /* Add bottom border */
+      border-left: none; /* Remove the right border */
+      border-bottom: 1px soli white; /* Add bottom border */
       padding: 25px 0px;
       
     }
 
     .firstlink{
         padding-top: 0%;
+    }
+
+    .lastlink{
+        margin-left: 30%;
     }
   }
