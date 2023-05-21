@@ -48,9 +48,9 @@ a{
     border-radius: 5px;
 }
 
-.margin{
+/* .margin{
     margin-left: 15px;
-}
+} */
 
 .underline{
     text-decoration: underline;
@@ -64,6 +64,7 @@ a{
     margin: auto;
     width: 70%;
 }
+
 
 #callToAction{
     text-align: center;
