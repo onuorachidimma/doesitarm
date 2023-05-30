@@ -11,7 +11,7 @@ body{
 }
 .container{
     margin: auto;
-    width: 70%;
+    width: 72%;
 }
 
 .border{
@@ -19,11 +19,16 @@ body{
     justify-content: center;
     margin: auto;
     width: 100%;
-    border: 1px solid white ;
+    border: 1px solid #1d1e21 ;
     border-radius: 10px;
     padding: 30px;
     box-sizing: border-box;
     /* flex-wrap: wrap; */
+}
+
+.links > .mt-20, .firstlink > .mt-20{
+    margin-top: 20px;
+    color: #d1d5db;
 }
 
 .links{
@@ -31,12 +36,14 @@ body{
     border-left: 1px solid #434c59;
     padding-left: 10px;
     /* width: 15%; */
-    height: ;
-} */
+   
+} 
 
 .firstlink{
     padding-right: 10px;
 }
+
+
 nav{
     display: flex;
     justify-content: space-around;
@@ -46,8 +53,7 @@ nav{
     left: 0;
     width: 100%;
     background-color: #272b2f;
-    
-    /* padding-top: 20px; */
+    padding-top: 20px;
     
 }
 
@@ -57,7 +63,7 @@ nav{
 }
 
 .text-xl {
-    font-size: 1.25rem;
+    font-size: 1.40rem;
     line-height: 1.75rem;
 }
 
@@ -68,11 +74,16 @@ a{
 
 #other-nav-link{
     background-color: black;
-    color: white;
+    
     padding: 5px;
     border-radius: 5px;
+    font-size: 0.9rem;
 }
 
+#other-nav-link > a{
+    color: #d1d5db;
+    padding: 3px 7px;
+}
 /* .margin{
     margin-left: 15px;
 } */
@@ -93,7 +104,47 @@ a{
 
 #callToAction{
     text-align: center;
+    font-size: 1.3rem;
+    margin: auto;
+    width: 65%;
+    /* background-color: red; */
 }
+
+
+
+.bg-darkest{
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.f-2{
+    font-size: 3.4rem;
+    line-height: 60px;
+    padding-top: 40px;
+    margin-bottom: 40px;
+    
+}
+
+.view{
+    border:1px solid #1d1e21;
+    background-color: #212225;
+    padding: 7px 17px;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    /* color: white; */
+    box-shadow: -0.25rem -0.25rem 0.5rem #ffffff12, 0.25rem 0.25rem 0.5rem #0000001f, -0.75rem -0.75rem 1.75rem #ffffff12, 0.75rem 0.75rem 1.75rem #0000001f, inset 8rem 8rem 8rem #0000000d, inset -8rem -8rem 8rem #ffffff0d;
+}
+
+
+#device-support{
+    margin-top: 32px;
+}
+
+#device-support > h2{
+    font-size: 1.6rem;
+    margin-bottom: 15px;
+}
+
 
 .center{
     text-align: center;
@@ -114,6 +165,10 @@ a{
 
 .font500, nav{
     font-weight: 500;
+}
+
+.p-left{
+   padding-right: 10px;
 }
 
 @media screen and (max-width: 600px) {

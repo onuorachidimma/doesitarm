@@ -13,4 +13,6 @@ body{
 
 #callToActionButton:hover{
     background: #808bed;
+    border: none;
 }
+

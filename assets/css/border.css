@@ -1,14 +1,14 @@
 .border{
+    
     border: solid 1px white;
     border-radius: 5px;
-    padding: 30px;
+    padding: 50px;
     display: flex;
     /* justify-content:space-between; */
-    flex-wrap: wrap;
-    
-    
-    
+    flex-wrap: wrap;  
 }
+
+
 
 .lastlink{
     padding: 20px;
@@ -22,8 +22,7 @@
     padding: 20px;
     
     /* padding-left: 0px;
-    margin-left: 0px; */
-    
+    margin-left: 0px; */    
 }
 
 @media screen and (max-width: 600px) {
