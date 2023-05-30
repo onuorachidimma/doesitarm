@@ -171,6 +171,13 @@ a{
    padding-right: 10px;
 }
 
+nav > div:hover{
+    background-color: #191a1d;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: -0.25rem -0.25rem 0.5rem #ffffff12, 0.25rem 0.25rem 0.5rem #0000001f, -0.75rem -0.75rem 1.75rem #ffffff12, 0.75rem 0.75rem 1.75rem #0000001f, inset 8rem 8rem 8rem #0000000d, inset -8rem -8rem 8rem #ffffff0d;
+}
+
 @media screen and (max-width: 600px) {
     .links {
       width: 100%; /* Set the width to 100% on smaller screens */
