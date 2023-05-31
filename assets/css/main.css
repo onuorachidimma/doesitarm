@@ -7,7 +7,7 @@
 }
 body{
     box-sizing: border-box;
-    padding-top: 130px;
+    padding-top: 135px;
 }
 
 
@@ -21,7 +21,7 @@ body{
     display: flex;
     justify-content: center;
     margin: auto;
-    width: 100%;
+    width: 90%;
     border: 1px solid white ;
     border-radius: 10px;
     padding: 30px;
@@ -32,6 +32,7 @@ body{
 .links > .mt-20, .firstlink > .mt-20{
     margin-top: 20px;
     color: #d1d5db;
+    font-size: 0.8rem;
 }
 
 .links{
@@ -93,6 +94,7 @@ a{
 #other-nav-link > a{
     color: #d1d5db;
     padding: 3px 7px;
+    font-size: 0.7rem;
 }
 /* .margin{
     margin-left: 15px;
@@ -124,6 +126,9 @@ a{
     /* background-color: red; */
 }
 
+.zeromq{
+    font-size: 1.1rem;
+}
 
 
 .bg-darkest{
@@ -132,7 +137,7 @@ a{
 }
 
 .f-2{
-    font-size: 3.4rem;
+    font-size: 3rem;
     line-height: 60px;
     padding-top: 40px;
     margin-bottom: 40px;
@@ -141,7 +146,7 @@ a{
 
 .view{
     border:1px solid #1d1e21;
-    background-color: #212225;
+    background-color: #222326;
     padding: 7px 17px;
     border-radius: 5px;
     font-size: 1.1rem;
@@ -151,7 +156,7 @@ a{
 
 
 #device-support{
-    margin-top: 32px;
+    margin-top: 9rem;
 }
 
 #device-support > h2{
@@ -186,12 +191,16 @@ a{
    padding-right: 10px;
 }
 
-nav > div:hover{
+nav > .b-shadow:hover{
     background-color: #191a1d;
     box-sizing: border-box;
     /* padding: 10px; */
     border-radius: 5px;
     box-shadow: -0.25rem -0.25rem 0.5rem #ffffff12, 0.25rem 0.25rem 0.5rem #0000001f, -0.75rem -0.75rem 1.75rem #ffffff12, 0.75rem 0.75rem 1.75rem #0000001f, inset 8rem 8rem 8rem #0000000d, inset -8rem -8rem 8rem #ffffff0d;
+}
+
+nav > .arm:hover{
+    background-color: red;
 }
 
 nav > div .p-10{
