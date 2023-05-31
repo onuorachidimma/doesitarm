@@ -9,10 +9,13 @@ body{
     box-sizing: border-box;
     padding-top: 130px;
 }
+
+
 .container{
     margin: auto;
     width: 72%;
 }
+
 
 .border{
     display: flex;
@@ -53,8 +56,15 @@ nav{
     left: 0;
     width: 100%;
     background-color: #272b2f;
-    padding-top: 20px;
+    padding: 10px;
+    /* background-color: red; */
     
+}
+
+nav > .col{
+    /* background-color: blue; */
+    /* width: 12%; */
+    /* text-align: center; */
 }
 
 
@@ -173,9 +183,14 @@ a{
 
 nav > div:hover{
     background-color: #191a1d;
-    padding: 10px;
+    box-sizing: border-box;
+    /* padding: 10px; */
     border-radius: 5px;
     box-shadow: -0.25rem -0.25rem 0.5rem #ffffff12, 0.25rem 0.25rem 0.5rem #0000001f, -0.75rem -0.75rem 1.75rem #ffffff12, 0.75rem 0.75rem 1.75rem #0000001f, inset 8rem 8rem 8rem #0000000d, inset -8rem -8rem 8rem #ffffff0d;
+}
+
+nav > div .p-10{
+    padding: 3px 3px;
 }
 
 @media screen and (max-width: 600px) {
