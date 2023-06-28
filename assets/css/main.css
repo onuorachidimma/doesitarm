@@ -217,6 +217,15 @@ nav > div .p-10{
     box-shadow: -0.25rem -0.25rem 0.5rem #ffffff12, 0.25rem 0.25rem 0.5rem #0000001f, -0.75rem -0.75rem 1.75rem #ffffff12, 0.75rem 0.75rem 1.75rem #0000001f, inset 8rem 8rem 8rem #0000000d, inset -8rem -8rem 8rem #ffffff0d;
 }
 
+form{
+    display: none;
+    
+}
+
+.display-form:hover form{
+    display: block;
+}
+
 .w-20 > .update{
     color: white;
 }
